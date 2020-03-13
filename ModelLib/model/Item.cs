@@ -43,14 +43,15 @@ namespace ModelLib.model
             _quantity = quantity;
         }
 
-        public void Data()
+        public Item()
         {
 
         }
 
         public override string ToString()
         {
-            return $"Id: {Id} \t Name: {Name} \t Quality: {Quality} \t Quantity: {Quantity}";
+            return Id + "" + Name + "" + Quality + "" + Quality + "";
         }
+
     }
 }
